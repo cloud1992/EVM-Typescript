@@ -1,0 +1,28 @@
+{
+  "name": "evm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@ethereumjs/trie": "^5.0.0",
+    "@ethereumjs/util": "^8.0.0",
+    "@ethersproject/bytes": "^5.7.0",
+    "abstract-level": "^1.0.3",
+    "command-line-args": "^6.0.0",
+    "command-line-interface": "^5.0.0",
+    "level": "^8.0.0",
+    "memory-level": "^1.0.0"
+  }
+}
